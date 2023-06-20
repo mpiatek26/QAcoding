@@ -1,0 +1,21 @@
+"""
+This module provides a function to add two numbers and print the sum.
+"""
+
+def add(number1: int, number2: int) -> int:
+    """
+    This function returns the sum of two numbers.
+    """
+    return number1 + number2
+
+def main() -> None:
+    """
+    Main function to execute the addition and print the result.
+    """
+    num1: int = 4
+    num2: int = 5
+    total: int = add(num1, num2)
+    print(f"The sum of {num1} and {num2} is {total}")
+
+if __name__ == "__main__":
+    main()
